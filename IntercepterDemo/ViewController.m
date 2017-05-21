@@ -2,12 +2,11 @@
 //  ViewController.m
 //  IntercepterDemo
 //
-//  Created by teacher on 16/8/3.
-//  Copyright © 2016年 teacher. All rights reserved.
+//  Created by Iean on 16/8/3.
+//  Copyright © 2016年 Iean. All rights reserved.
 //
 
 #import "ViewController.h"
-#import "MyDemo.h"
 
 @interface ViewController ()
 

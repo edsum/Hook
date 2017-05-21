@@ -2,8 +2,8 @@
 //  ZWSingleton.h
 //  DictPublishAssistant
 //
-//  Created by zhuwei on 15/2/8.
-//  Copyright (c) 2015年 zhuwei. All rights reserved.
+//  Created by Iean on 15/2/8.
+//  Copyright (c) 2015年 Iean. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>

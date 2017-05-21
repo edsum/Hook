@@ -2,7 +2,7 @@
 //  ZWIntercepter.m
 //  Pods
 //
-//  Created by zhuwei on 15/8/6.
+//  Created by Iean on 15/8/6.
 //
 //
 
@@ -10,7 +10,6 @@
 #import "objc/runtime.h"
 #import <CoreGraphics/CoreGraphics.h>
 #import <UIKit/UIKit.h>
-//#import <ZWCommonKit/NSObject+Perform.h>
 
 #define GET_INTERCEPTER_METHOD_NAME     @"intercepter"
 #define ORIG_METHOD_PREFIX              @"orig_"
@@ -30,6 +29,26 @@ for (int index = 2; index < argumentCount; index++) {                           
     [invocation setArgument:&parameter atIndex:index];                                  \
 }                                                                                       \
 va_end(arguments);
+
+/*
+ 注释：
+ // 创建一个函数签名，这个签名可以是任意的，但是需要注意，签名函数的参数数量要和调用的一致
+ NSMethodSignature *methodSignature = [target methodSignatureForSelector:__cmd];
+ // 通过签名初始化invocation
+ NSInvocation *invocation = [NSInvocation invocationWithMethodSignature:methodSignature];
+ // 定义指向参数的指针
+ va_list arguments;
+ // 得到第一个可变参数地址
+ va_start(arguments, __cmd);
+ // 参数数量
+ NSUInteger argumentCount = [methodSignature numberOfArguments];
+ // 遍历参数，设置参数
+ for (int index = 2; index < argumentCount; index++) {
+ void *parameter = va_arg(arguments, void *);
+ [invocation setArgument:&parameter atIndex:index];
+ }
+ va_end(arguments);
+ */
 
 //执行before方法
 void execBeforeMethod(id target,SEL _cmd,NSInvocation *invocation) {

@@ -2,8 +2,8 @@
 //  Singleton.h
 //  单例模式
 //
-//  Created by Apple on 16/6/10.
-//  Copyright © 2016年 itcast. All rights reserved.
+//  Created by Iean on 16/6/10.
+//  Copyright © 2016年 Iean. All rights reserved.
 //
 
 #define Singleton_h(name) +(instancetype)shared##name;

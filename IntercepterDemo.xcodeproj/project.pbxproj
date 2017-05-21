@@ -7,18 +7,23 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0E9CB5DA1ED05BB8008C2A75 /* ViewController_log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CB5D21ED05BB8008C2A75 /* ViewController_log.m */; };
+		0E9CB5DB1ED05BB8008C2A75 /* ZWIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CB5D41ED05BB8008C2A75 /* ZWIntercepter.m */; };
 		AEBFEAA51D51ED3300ECB23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAA41D51ED3300ECB23D /* main.m */; };
 		AEBFEAA81D51ED3300ECB23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAA71D51ED3300ECB23D /* AppDelegate.m */; };
 		AEBFEAAB1D51ED3300ECB23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAAA1D51ED3300ECB23D /* ViewController.m */; };
 		AEBFEAAE1D51ED3300ECB23D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBFEAAC1D51ED3300ECB23D /* Main.storyboard */; };
 		AEBFEAB01D51ED3300ECB23D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AEBFEAAF1D51ED3300ECB23D /* Assets.xcassets */; };
 		AEBFEAB31D51ED3300ECB23D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AEBFEAB11D51ED3300ECB23D /* LaunchScreen.storyboard */; };
-		AEBFEABC1D51ED3B00ECB23D /* ZWIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEABB1D51ED3B00ECB23D /* ZWIntercepter.m */; };
-		AEBFEAC01D51ED8700ECB23D /* MyDemo.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEABF1D51ED8700ECB23D /* MyDemo.m */; };
-		AEBFEAC61D51EF5500ECB23D /* ViewController_log.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAC51D51EF5500ECB23D /* ViewController_log.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0E9CB5D11ED05BB8008C2A75 /* ViewController_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController_log.h; sourceTree = "<group>"; };
+		0E9CB5D21ED05BB8008C2A75 /* ViewController_log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController_log.m; sourceTree = "<group>"; };
+		0E9CB5D31ED05BB8008C2A75 /* ZWIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWIntercepter.h; sourceTree = "<group>"; };
+		0E9CB5D41ED05BB8008C2A75 /* ZWIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIntercepter.m; sourceTree = "<group>"; };
+		0E9CB5D81ED05BB8008C2A75 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		0E9CB5D91ED05BB8008C2A75 /* ZWSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSingleton.h; sourceTree = "<group>"; };
 		AEBFEAA01D51ED3300ECB23D /* IntercepterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercepterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFEAA41D51ED3300ECB23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEBFEAA61D51ED3300ECB23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,14 +34,6 @@
 		AEBFEAAF1D51ED3300ECB23D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AEBFEAB21D51ED3300ECB23D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AEBFEAB41D51ED3300ECB23D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AEBFEABA1D51ED3B00ECB23D /* ZWIntercepter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ZWIntercepter.h; path = ../ZWIntercepter.h; sourceTree = "<group>"; };
-		AEBFEABB1D51ED3B00ECB23D /* ZWIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ZWIntercepter.m; path = ../ZWIntercepter.m; sourceTree = "<group>"; };
-		AEBFEABD1D51ED5C00ECB23D /* ZWSingleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ZWSingleton.h; path = ../ZWSingleton.h; sourceTree = "<group>"; };
-		AEBFEABE1D51ED8700ECB23D /* MyDemo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDemo.h; path = ../MyDemo.h; sourceTree = "<group>"; };
-		AEBFEABF1D51ED8700ECB23D /* MyDemo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = MyDemo.m; path = ../MyDemo.m; sourceTree = "<group>"; };
-		AEBFEAC41D51EF5500ECB23D /* ViewController_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ViewController_log.h; path = ../ViewController_log.h; sourceTree = "<group>"; };
-		AEBFEAC51D51EF5500ECB23D /* ViewController_log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ViewController_log.m; path = ../ViewController_log.m; sourceTree = "<group>"; };
-		DFB1C5C41D5248E700119C44 /* Singleton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Singleton.h; path = IntercepterDemo/Singleton.h; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +47,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0E9CB5D01ED05BB8008C2A75 /* Hook */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CB5D11ED05BB8008C2A75 /* ViewController_log.h */,
+				0E9CB5D21ED05BB8008C2A75 /* ViewController_log.m */,
+				0E9CB5D31ED05BB8008C2A75 /* ZWIntercepter.h */,
+				0E9CB5D41ED05BB8008C2A75 /* ZWIntercepter.m */,
+			);
+			path = Hook;
+			sourceTree = "<group>";
+		};
+		0E9CB5D51ED05BB8008C2A75 /* Singleton */ = {
+			isa = PBXGroup;
+			children = (
+				0E9CB5D81ED05BB8008C2A75 /* Singleton.h */,
+				0E9CB5D91ED05BB8008C2A75 /* ZWSingleton.h */,
+			);
+			path = Singleton;
+			sourceTree = "<group>";
+		};
 		AEBFEA971D51ED3300ECB23D = {
 			isa = PBXGroup;
 			children = (
@@ -69,8 +86,8 @@
 		AEBFEAA21D51ED3300ECB23D /* IntercepterDemo */ = {
 			isa = PBXGroup;
 			children = (
-				DFB1C5C51D52491C00119C44 /* 拦截类 */,
-				DFB1C5C61D52491C00119C44 /* Singleton */,
+				0E9CB5D01ED05BB8008C2A75 /* Hook */,
+				0E9CB5D51ED05BB8008C2A75 /* Singleton */,
 				AEBFEAA61D51ED3300ECB23D /* AppDelegate.h */,
 				AEBFEAA71D51ED3300ECB23D /* AppDelegate.m */,
 				AEBFEAA91D51ED3300ECB23D /* ViewController.h */,
@@ -90,28 +107,6 @@
 				AEBFEAA41D51ED3300ECB23D /* main.m */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		DFB1C5C51D52491C00119C44 /* 拦截类 */ = {
-			isa = PBXGroup;
-			children = (
-				AEBFEAC41D51EF5500ECB23D /* ViewController_log.h */,
-				AEBFEAC51D51EF5500ECB23D /* ViewController_log.m */,
-				AEBFEABA1D51ED3B00ECB23D /* ZWIntercepter.h */,
-				AEBFEABB1D51ED3B00ECB23D /* ZWIntercepter.m */,
-			);
-			path = "拦截类";
-			sourceTree = "<group>";
-		};
-		DFB1C5C61D52491C00119C44 /* Singleton */ = {
-			isa = PBXGroup;
-			children = (
-				AEBFEABE1D51ED8700ECB23D /* MyDemo.h */,
-				AEBFEABF1D51ED8700ECB23D /* MyDemo.m */,
-				DFB1C5C41D5248E700119C44 /* Singleton.h */,
-				AEBFEABD1D51ED5C00ECB23D /* ZWSingleton.h */,
-			);
-			path = Singleton;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -145,7 +140,7 @@
 				TargetAttributes = {
 					AEBFEA9F1D51ED3300ECB23D = {
 						CreatedOnToolsVersion = 7.3;
-						DevelopmentTeam = WZA497Y6EH;
+						DevelopmentTeam = FMD48QW6R3;
 					};
 				};
 			};
@@ -185,12 +180,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AEBFEABC1D51ED3B00ECB23D /* ZWIntercepter.m in Sources */,
 				AEBFEAAB1D51ED3300ECB23D /* ViewController.m in Sources */,
 				AEBFEAA81D51ED3300ECB23D /* AppDelegate.m in Sources */,
-				AEBFEAC01D51ED8700ECB23D /* MyDemo.m in Sources */,
 				AEBFEAA51D51ED3300ECB23D /* main.m in Sources */,
-				AEBFEAC61D51EF5500ECB23D /* ViewController_log.m in Sources */,
+				0E9CB5DB1ED05BB8008C2A75 /* ZWIntercepter.m in Sources */,
+				0E9CB5DA1ED05BB8008C2A75 /* ViewController_log.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -302,6 +296,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FMD48QW6R3;
 				INFOPLIST_FILE = IntercepterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.IntercepterDemo;
@@ -313,6 +308,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FMD48QW6R3;
 				INFOPLIST_FILE = IntercepterDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = cn.itcast.IntercepterDemo;
