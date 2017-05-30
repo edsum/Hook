@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		0E9CB5DA1ED05BB8008C2A75 /* ViewController_log.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CB5D21ED05BB8008C2A75 /* ViewController_log.m */; };
 		0E9CB5DB1ED05BB8008C2A75 /* ZWIntercepter.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E9CB5D41ED05BB8008C2A75 /* ZWIntercepter.m */; };
+		0EEFFB1E1EDDBB0A0097FB05 /* Aspects.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFB1D1EDDBB0A0097FB05 /* Aspects.m */; };
+		0EEFFB211EDDBB5C0097FB05 /* ViewController+Click.m in Sources */ = {isa = PBXBuildFile; fileRef = 0EEFFB201EDDBB5C0097FB05 /* ViewController+Click.m */; };
 		AEBFEAA51D51ED3300ECB23D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAA41D51ED3300ECB23D /* main.m */; };
 		AEBFEAA81D51ED3300ECB23D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAA71D51ED3300ECB23D /* AppDelegate.m */; };
 		AEBFEAAB1D51ED3300ECB23D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AEBFEAAA1D51ED3300ECB23D /* ViewController.m */; };
@@ -24,6 +26,10 @@
 		0E9CB5D41ED05BB8008C2A75 /* ZWIntercepter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZWIntercepter.m; sourceTree = "<group>"; };
 		0E9CB5D81ED05BB8008C2A75 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
 		0E9CB5D91ED05BB8008C2A75 /* ZWSingleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZWSingleton.h; sourceTree = "<group>"; };
+		0EEFFB1C1EDDBB0A0097FB05 /* Aspects.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Aspects.h; sourceTree = "<group>"; };
+		0EEFFB1D1EDDBB0A0097FB05 /* Aspects.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Aspects.m; sourceTree = "<group>"; };
+		0EEFFB1F1EDDBB5C0097FB05 /* ViewController+Click.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ViewController+Click.h"; sourceTree = "<group>"; };
+		0EEFFB201EDDBB5C0097FB05 /* ViewController+Click.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ViewController+Click.m"; sourceTree = "<group>"; };
 		AEBFEAA01D51ED3300ECB23D /* IntercepterDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntercepterDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AEBFEAA41D51ED3300ECB23D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AEBFEAA61D51ED3300ECB23D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -67,6 +73,17 @@
 			path = Singleton;
 			sourceTree = "<group>";
 		};
+		0EEFFB1B1EDDBAFA0097FB05 /* Aspect */ = {
+			isa = PBXGroup;
+			children = (
+				0EEFFB1C1EDDBB0A0097FB05 /* Aspects.h */,
+				0EEFFB1D1EDDBB0A0097FB05 /* Aspects.m */,
+				0EEFFB1F1EDDBB5C0097FB05 /* ViewController+Click.h */,
+				0EEFFB201EDDBB5C0097FB05 /* ViewController+Click.m */,
+			);
+			path = Aspect;
+			sourceTree = "<group>";
+		};
 		AEBFEA971D51ED3300ECB23D = {
 			isa = PBXGroup;
 			children = (
@@ -86,6 +103,7 @@
 		AEBFEAA21D51ED3300ECB23D /* IntercepterDemo */ = {
 			isa = PBXGroup;
 			children = (
+				0EEFFB1B1EDDBAFA0097FB05 /* Aspect */,
 				0E9CB5D01ED05BB8008C2A75 /* Hook */,
 				0E9CB5D51ED05BB8008C2A75 /* Singleton */,
 				AEBFEAA61D51ED3300ECB23D /* AppDelegate.h */,
@@ -184,7 +202,9 @@
 				AEBFEAA81D51ED3300ECB23D /* AppDelegate.m in Sources */,
 				AEBFEAA51D51ED3300ECB23D /* main.m in Sources */,
 				0E9CB5DB1ED05BB8008C2A75 /* ZWIntercepter.m in Sources */,
+				0EEFFB211EDDBB5C0097FB05 /* ViewController+Click.m in Sources */,
 				0E9CB5DA1ED05BB8008C2A75 /* ViewController_log.m in Sources */,
+				0EEFFB1E1EDDBB0A0097FB05 /* Aspects.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

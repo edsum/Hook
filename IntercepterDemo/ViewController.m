@@ -18,10 +18,12 @@
     [super viewDidLoad];
     
     [self loginWithUsername:@"test" password:@"pwd"];
+    
 }
 
 - (void)loginWithUsername:(NSString *)username password:(NSString *)pwd {
     NSLog(@"进行登录逻辑");
 }
+
 
 @end
